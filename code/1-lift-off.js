@@ -5,10 +5,10 @@
 function liftOff() {
   // let count = 10
   let choice = prompt('Pick your number of choice to count down from.')
-
+  let up = prompt('chose another number to count down in')
   while (choice > 0) {
     alert(choice + '...')
-    choice = choice - 1
+    choice = choice - up
   }
 
   alert('Lift Off!')
