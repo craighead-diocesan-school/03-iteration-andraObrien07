@@ -29,9 +29,10 @@ function squareSeries() {
 
   // let count = Thenumber
   // count < Thenumber
-
+  // while (count > Thenumber) {
   let square = Thenumber * Thenumber
 
-  alert('The series for that number is ' + square)
 
+  // }
+  alert('The square series for that number is ' + square)
 }
