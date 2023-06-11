@@ -21,18 +21,19 @@ function squareSeries() {
   // }
   // alert('The number is ' + Thenumber)
 
-
+  // 5* = 5x5 , 4x4, 3x3, 2x2, 1x1
   let Thenumber = prompt('what number do you want the series for?')
-
-
+  let count = 1
+  let series = ''
   Thenumber = Number(Thenumber)
+  // Total = Thenumber * Thenumber
+  while (count <= Thenumber) {
+    // square = count * count
+    // squareSeries = Thenumber * Thenumber
+    // Thenumber = Thenumber - 1
+    series = series + count * count + ', '
 
-  // let count = Thenumber
-  // count < Thenumber
-  // while (count > Thenumber) {
-  let square = Thenumber * Thenumber
-
-
-  // }
-  alert('The square series for that number is ' + square)
+    count = count + 1
+  }
+  alert('The series for ' + Thenumber + ' is ' + series + '! ')
 }
