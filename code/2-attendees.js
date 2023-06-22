@@ -2,20 +2,20 @@
 // ####### ----- Attendees ----- ######
 // ####################################
 
-// function attendees() {
-//   let count = 0
-//   let numOfAttendees = prompt('How many attendees')
-//   let attendeeList = ''
+function attendees() {
 
-//   while (count < numOfAttendees) {
-//     let attendee = prompt('enter a name')
-//     attendeeList = attendeeList + attendee + ', '
-//     // attendeeList = attendeeList + ', '
-//     count = count + 1
-//   }
+  let numOfAttendees = prompt('How many attendees')
+  let attendeeList = ''
+  let count = 0
+  while (count < numOfAttendees) {
+    let attendee = prompt('enter a name')
+    attendeeList = attendeeList + attendee + ', '
+    // attendeeList = attendeeList + ', '
+    count = count + 1
+  }
 
-//   alert(attendeeList)
-// }
+  alert(attendeeList)
+}
 
 function make2() {
   let numOfNumber = prompt('how many numbers')
