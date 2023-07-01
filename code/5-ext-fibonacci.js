@@ -21,16 +21,54 @@ function fibonacci() {
   // }
 
   // alert('The fibonacci sequence for ' + fibs + 'is ...' + seq)
+  // let number = prompt('What number do u want the fibonacci sequence for?')
+  // let red = next
+  // let orange = previous
+  // let green = old
+  // count = 1
+  // // let count = 0
+  // while (red <= number) {
+  //   green = orange
+  //   orange = red
+  //   red = green + orange
+
+  // }
+  // alert('sequence is 0, 1, ' + red)
+
+
   let number = prompt('What number do u want the fibonacci sequence for?')
-  let red = next
-  let orange = previous
-  let green = old
+  // let red = count + 1
+  // let violet = red + 1
+  // let green = red + violet
+
+
+
+  // let red = count
+  // let violet = red + red
+  // let green = violet + red
+
   count = 1
-  while (red <= number) {
-    green = orange
-    orange = red
-    red = green + orange
+
+  let red = 1
+  let violet = 2
+  let green = 3
+
+
+  while (green <= number) {
+    //   violet = red + red
+    //   green = violet + red
+    //   blue = green + violet
+
+    // let green = count + red
+    // let sum = green + violet
+
+    red = count + 1
+    violet = red + count
+    violet = red + 1
+    green = red + violet
+
 
   }
-  alert('sequence is 0, 1, ' + red)
+
+  alert('The fibonacci sequence up to you number is ' + green)
 }
