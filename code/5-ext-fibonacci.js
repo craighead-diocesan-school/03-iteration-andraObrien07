@@ -4,7 +4,7 @@
 
 function fibonacci() {
   // write your code here
-
+  //thanks emma
 
   let number = prompt('What number do u want the fibonacci sequence for?')
   number = Number(number)
@@ -16,8 +16,8 @@ function fibonacci() {
   let violet = 1
   let green = ''
 
-  let sequence = 'the fibonacci sequence: '
-  while (count < red) {
+  let sequence = 'the fibonacci sequence is ... '
+  while (count < number) {
     green = red + violet
     red = violet
     violet = green
