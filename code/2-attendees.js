@@ -3,10 +3,11 @@
 // ####################################
 
 function attendees() {
-
+  //ask how many people will be attending
   let numOfAttendees = prompt('How many attendees')
   let attendeeList = ''
   let count = 0
+  //loop that lets the user tell the code what names to add in 
   while (count < numOfAttendees) {
     let attendee = prompt('enter a name')
     attendeeList = attendeeList + attendee + ', '

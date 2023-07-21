@@ -3,14 +3,17 @@
 // ####################################
 
 function liftOff() {
-  // let count = 10
+  // ask for a number to count down from
   let choice = prompt('Pick your number of choice to count down from.')
+  // ask how they want to count down in 
   let up = prompt('chose another number to count down in')
+
+  //loop that starts at 'choice' and count down in 'up'
   while (choice > 0) {
     alert(choice + '...')
     choice = choice - up
   }
-
+  //end function
   alert('Lift Off!')
 }
 
